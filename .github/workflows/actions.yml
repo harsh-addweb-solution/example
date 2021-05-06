@@ -26,4 +26,3 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           whoami
-          touch addweb.txt
