@@ -24,7 +24,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        passphrase: ${{ secrets.PASSWORD }}
-        use_insecure_cipher: true
+        passphrase: ${{ secrets.PASSPHRASE }}
+        #use_insecure_cipher: true
         script: |
           whoami
